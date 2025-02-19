@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassportStatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#F7F7F7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passport Application Status"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginBottom="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Status Items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.digilanka.PassportStatusItem
+                android:id="@+id/status_applied"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:statusText="Applied"
+                app:statusCompleted="false"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginBottom="8dp"/>
+
+            <com.example.digilanka.PassportStatusItem
+                android:id="@+id/status_verified"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:statusText="Verified"
+                app:statusCompleted="false"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginBottom="8dp"/>
+
+            <com.example.digilanka.PassportStatusItem
+                android:id="@+id/status_printed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:statusText="Printed"
+                app:statusCompleted="false"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginBottom="8dp"/>
+
+            <com.example.digilanka.PassportStatusItem
+                android:id="@+id/status_delivered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:statusText="Delivered"
+                app:statusCompleted="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

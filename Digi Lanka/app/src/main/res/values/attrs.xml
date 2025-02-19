@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="PassportStatusItem">
+        <attr name="statusText" format="string" />
+        <attr name="statusCompleted" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="NicStatusItem">
+        <attr name="statusTextNic" format="string" />
+        <attr name="statusCompletedNic" format="boolean" />
+    </declare-styleable>
+</resources>
