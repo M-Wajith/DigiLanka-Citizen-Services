@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Python virtual environment
+.venv/
+__pycache__/
+
+# SQLite Database
+*.db
+
+# Compiled files
+*.pyc
+*.pyo
+*.log
+
+# Android Studio
+*.iml
+.gradle/
+.idea/
+build/
