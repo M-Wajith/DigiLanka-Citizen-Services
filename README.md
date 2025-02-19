@@ -50,7 +50,7 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 Install dependencies:
 ```sh
-pip install -r requirements.txt
+pip install Package name
 ```
 Run the Flask server:
 ```sh
