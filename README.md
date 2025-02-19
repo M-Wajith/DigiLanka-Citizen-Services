@@ -64,7 +64,7 @@ cd frontend/digilanka
 ```
 Install dependencies:
 ```sh
-npm install
+npm install Package name
 ```
 Start the development server:
 ```sh
