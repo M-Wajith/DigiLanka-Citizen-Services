@@ -10,7 +10,6 @@
   - [Mobile Application Setup (Android)](#mobile-application-setup-android)
   - [Database Setup (SQLite3)](#database-setup-sqlite3)
 - [Running the Project](#running-the-project)
-- [API Documentation](#api-documentation)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 
@@ -117,9 +116,6 @@ SQLite3 is used as the database for this project. The database file is stored lo
    npm start
    ```
 3. **Run the Android application via Android Studio**.
-
-## API Documentation
-The Flask backend exposes APIs for authentication, data retrieval, and updates. Full API documentation is available in the backend folder under `api_docs.md`.
 
 ## Troubleshooting
 - **Backend Issues**: Ensure dependencies are installed correctly and SQLite3 is accessible.
